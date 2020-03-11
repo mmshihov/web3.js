@@ -13,7 +13,7 @@
     "types": "types/index.d.ts",
     "main": "src/index.js",
     "dependencies": {
-        "web3-core-helpers": "1.2.6",
+        "web3-core-helpers": "file:../web3-core-helpers",
         "xhr2-cookies": "1.1.0"
     },
     "devDependencies": {

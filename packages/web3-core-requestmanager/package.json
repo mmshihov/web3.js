@@ -10,9 +10,9 @@
     "main": "src/index.js",
     "dependencies": {
         "underscore": "1.9.1",
-        "web3-core-helpers": "1.2.6",
-        "web3-providers-http": "1.2.6",
-        "web3-providers-ipc": "1.2.6",
-        "web3-providers-ws": "1.2.6"
+        "web3-core-helpers": "file:../web3-core-helpers",
+        "web3-providers-http": "file:../web3-providers-http",
+        "web3-providers-ipc": "file:../web3-providers-ipc",
+        "web3-providers-ws": "file:../web3-providers-ws"
     }
 }
