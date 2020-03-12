@@ -50,13 +50,13 @@
     ],
     "dependencies": {
         "@types/node": "^12.6.1",
-        "web3-bzz": "1.2.6",
-        "web3-core": "1.2.6",
-        "web3-eth": "1.2.6",
-        "web3-eth-personal": "1.2.6",
-        "web3-net": "1.2.6",
-        "web3-shh": "1.2.6",
-        "web3-utils": "1.2.6"
+        "web3-bzz": "file:../web3-bzz",
+        "web3-core": "file:../web3-core",
+        "web3-eth": "file:../web3-eth",
+        "web3-eth-personal": "file:../web3-eth-personal",
+        "web3-net": "file:../web3-net",
+        "web3-shh": "file:../web3-shh",
+        "web3-utils": "file:../web3-utils"
     },
     "devDependencies": {
         "definitelytyped-header-parser": "^1.0.1",

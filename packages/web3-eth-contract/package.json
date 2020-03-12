@@ -15,13 +15,13 @@
     "dependencies": {
         "@types/bn.js": "^4.11.4",
         "underscore": "1.9.1",
-        "web3-core": "1.2.6",
-        "web3-core-helpers": "1.2.6",
-        "web3-core-method": "1.2.6",
-        "web3-core-promievent": "1.2.6",
-        "web3-core-subscriptions": "1.2.6",
-        "web3-eth-abi": "1.2.6",
-        "web3-utils": "1.2.6"
+        "web3-core": "file:../web3-core",
+        "web3-core-helpers": "file:../web3-core-helpers",
+        "web3-core-method": "file:../web3-core-method",
+        "web3-core-promievent": "file:../web3-core-promievent",
+        "web3-core-subscriptions": "file:../web3-core-subscriptions",
+        "web3-eth-abi": "file:../web3-eth-abi",
+        "web3-utils": "file:../web3-utils"
     },
     "devDependencies": {
         "definitelytyped-header-parser": "^1.0.1",

@@ -21,10 +21,10 @@
         "ethereumjs-tx": "^2.1.1",
         "underscore": "1.9.1",
         "uuid": "3.3.2",
-        "web3-core": "1.2.6",
-        "web3-core-helpers": "1.2.6",
-        "web3-core-method": "1.2.6",
-        "web3-utils": "1.2.6"
+        "web3-core": "file:../web3-core",
+        "web3-core-helpers": "file:../web3-core-helpers",
+        "web3-core-method": "file:../web3-core-method",
+        "web3-utils": "file:../web3-utils"
     },
     "devDependencies": {
         "definitelytyped-header-parser": "^1.0.1",

@@ -14,7 +14,7 @@
     "main": "src/index.js",
     "dependencies": {
         "bn.js": "4.11.8",
-        "web3-utils": "1.2.6"
+        "web3-utils": "file:../web3-utils"
     },
     "devDependencies": {
         "definitelytyped-header-parser": "^1.0.1",
