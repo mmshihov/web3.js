@@ -517,7 +517,7 @@ Method.prototype._confirmTransaction = function (defer, result, payload) {
         if (_.isFunction(this.requestManager.provider.on)) {
             _ethereumCall.subscribe('newBlockHeaders', checkConfirmation.bind(null, existingReceipt, false));
         } else {
-            intervalId = setInterval(checkConfirmation.bind(null, existingReceipt, true), 1000);
+            intervalId = setInterval(checkConfirmation.bind(null, existingReceipt, true), 100);
         }
     }.bind(this);
 
